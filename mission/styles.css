@@ -8,6 +8,15 @@ body{
     align-self: center;
     margin: 0, auto;
     justify-content: center;
+    background-color: white;
+}
+.dark{
+    background-color: #333;
+    color: white;
+
+}
+.dark > h2{
+    color: #4F9ACF;
 }
 div{
     width: 600px ;
@@ -17,7 +26,7 @@ div{
     border-color: gray;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: white;
+    
     
 }
 header{
