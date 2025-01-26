@@ -83,6 +83,7 @@ button{
 .gallery{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 16px;
 }
 
 }    
@@ -101,7 +102,7 @@ button{
 nav{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 8rem;
 }
 }    
 
