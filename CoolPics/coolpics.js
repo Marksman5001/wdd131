@@ -14,7 +14,7 @@ function handleResize(){
             nav.classList.add("hide")
         }
 }
-handleResize()
+handleResize();
 window.addEventListener("resize", handleResize)
 function viewerTemplate(imgpath, alttext){
     return `<div class="viewer">

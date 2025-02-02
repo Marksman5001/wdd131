@@ -68,7 +68,7 @@ nav >a {
     grid-column: 2;
     font-size: x-large;
     color: var(--accent-color);
-    align-self: flex-end;
+    align-self: self-end;
     justify-self: right;
 }
 .viewer img{
