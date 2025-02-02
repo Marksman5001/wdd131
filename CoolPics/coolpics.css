@@ -49,10 +49,33 @@ nav >a {
 .gallery{
     display: grid;
 }
-nav{
-    display: flex;
-    flex-direction: column;
-    color: var(--text-light);
+.hide{
+    display: none;
+}
+.viewer{
+    display: grid;
+    position: fixed;
+    top: 0;left: 0;bottom: 0;right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 10;
+    margin: 5%;
+    
+}
+.close-view{
+    grid-row: 1;
+    grid-column: 2;
+    font-size: x-large;
+    color: var(--accent-color);
+    align-self: flex-end;
+    justify-self: right;
+}
+.viewer img{
+    max-height: 100%;
+    grid-row: 2;
+    grid-column: 2;
+    padding: 10px;
 }
 footer{
     text-align: left;
