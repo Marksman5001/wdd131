@@ -1,7 +1,10 @@
 .filters{
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-color: #EFC69B;
+}
+*{
+    letter-spacing: 2px;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -23,6 +26,15 @@ img{
 h2{
     color: #AF1B3F;
 }
+.book-info{
+    line-height: 30px;
+    border-color: #EFC69B;
+    border-style: solid;
+    border-left:none; border-top:none; border-bottom: none;
+    margin: 20px;
+    justify-self: right;
+    padding: 10px;
+}
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -36,9 +48,11 @@ main{
     border-top: #EFC69B;
     border-bottom: #EFC69B;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     padding: 20px;
     margin: 0, auto;
+    border-right: none;
+    border-left: none;
 }
 li a {
     
@@ -49,12 +63,13 @@ li a {
     list-style: none;
     color: #AF1B3F;
     grid-row:1;
+    font-size: larger;
 }
 .skiptocontent a{
     position: absolute;
     top: -40px;
     background-color: black;
-    color: purple;
+    color: #AF1B3F;
     justify-self: left;
 }
 .skiptocontent a:focus{
