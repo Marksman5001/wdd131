@@ -1,0 +1,122 @@
+*
+{
+    background-color: #e1f0ff;
+}
+h1
+{
+    justify-self: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+nav
+{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    background-color: #4B2B1B;
+    color: #A7E719;
+    justify-content: center;
+}
+a:visited
+{
+    color: #A7E719;
+}
+a
+{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    font-size: large;
+    justify-content: center;
+    background-color: #4B2B1B;
+    text-decoration: none;
+    color: #A7E719;
+}
+a:hover
+{
+    background-color: #070708;
+    color: #FFFFFF;
+}
+a:focus
+{
+    color: #FFFFFF;
+    background-color: #2B2B2B;
+}
+header
+{
+    width: 100%;
+}
+.logo
+{
+    width: 100px;
+    display: flex;
+    justify-self: center;
+    object-fit: cover;
+    
+}
+.plant-img
+{
+    object-fit: cover;
+    
+}
+.home-info
+{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+p
+{
+    font-size: large;
+    padding: 25px;
+}
+.selectors
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+label
+{
+    padding: 10px;
+    font-size:x-large;
+    margin-left:20px ;
+}
+select{
+    text-align: center;
+    
+}
+button
+{
+    font-size:x-large;
+    margin-left: 30px ;
+    margin-left: 30px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #9B5A3C;
+    color:#A7E719;
+}
+select:hover{
+    cursor: pointer;
+}
+.images{
+    object-fit: cover;
+    width: 100%;
+    max-width: 500px;
+}
+.new-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.plant-info{
+    max-width: 50%;
+}
+.home-info p{
+    max-width: 50%;
+}

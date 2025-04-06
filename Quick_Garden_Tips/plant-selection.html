@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Garden Tips - Plant Selection</title>
+    <meta name="Author" content="Mark Whitman">
+    <meta name="description" content="A website built to provide tips on how to garden some few plants, as well as the differences between indoor and outdoor gardening">
+    <meta name="keywords" content="garden, gardening, how to">
+    <link rel="shortcut icon" type="image/x-icon" href="./pixil-frame-0.png" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Quick Garden Tips</h1>
+        <img class="logo" src="./pixil-frame-0.png" alt="Logo Image">
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./plant-selection.html">Plant Information</a>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="selectors">
+            <label for="Plant-Name">Select a plant:</label>
+            <select name="Plant-Name" id="Plant-Name">
+                <option value="" selected disabled hidden>Select plant</option>
+                <option value="potato">Potato</option>
+                <option value="carrot">Carrot</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="raspberry">Raspberry</option>
+            </select>
+            <label for="inOrOut">Indoor or outdoor:</label>
+            <select name="inOrOut" id="inOrOut">
+                <option value="" selected disabled hidden>Select area</option>
+                <option value="indoor">Indoor</option>
+                <option value="outdoor">Outdoor</option>
+            </select>
+            <button id="button">Go!</button>
+        </div>
+        <div class="new-container">
+            <div class="image" id="image">
+
+            </div>
+            <section class="plant-info" id="plant-info">
+                <p></p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
